@@ -13,7 +13,7 @@ body {
     margin-top: 3em;
     width: 40em;
     min-height: 30em;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 1em;
 }
 
@@ -28,19 +28,24 @@ body {
 }
 
 img {
-    vertical-align: text-top;
+    vertical-align: text-bottom;
     max-width: 400px;
     max-height: 400px;
+    
 }
 
 #nav ul {
     list-style-type: none;
     width: 100%;
     line-height: 20px;
+    text-decoration: none;
+    
 }
 
 #nav li {
-    display: inline;
+    display: inline-block;
+    
+    
 }
 
 #nav a {
@@ -54,6 +59,6 @@ img {
 }
 
 #nav a:hover {
-    background-color: rgb(122, 153, 26);
+    background-color: rgb(122, 153, 150);
 }
 
