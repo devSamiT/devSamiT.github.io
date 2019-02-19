@@ -28,7 +28,7 @@ body {
 }
 
 img {
-    vertical-align: text-bottom;
+    vertical-align: text-top;
     max-width: 400px;
     max-height: 400px;
     
@@ -43,7 +43,7 @@ img {
 }
 
 #nav li {
-    display: inline-block;
+    display: inline;
     
     
 }
